@@ -10,4 +10,6 @@ spec:
     image: nginx
     ports:
     - containerPort: 80
+  - name: fdlogger
+    image: fluent/fluentd
 
